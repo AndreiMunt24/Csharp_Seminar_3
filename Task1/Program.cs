@@ -2,11 +2,7 @@
 //  Найдите количество элементов массива,
 //  значения которых лежат в отрезке [10,90].
 
-using System;
-
-class Program
-{
-    static void Main()
+void Main()
     {
         // Создание массива
         int[] array = { 1, 5, 10, 20, 30, 40, 99, 4, 90, 3 };
@@ -27,4 +23,4 @@ class Program
         // Вывод результата
         Console.WriteLine(count); // Ожидаемый вывод: 5
     }
-}
+Main();
